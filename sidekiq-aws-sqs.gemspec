@@ -41,6 +41,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'dry-configurable', '~> 1.0', '>= 1.0.1'
   spec.add_dependency 'rails', '>= 6.0.0'
   spec.add_dependency 'safe_poller', '~> 0.0.1'
-  spec.add_dependency 'sidekiq', '>= 7.0.0'
+  spec.add_dependency 'sidekiq', '>= 6.0.0', '< 7.0.0'
 end
 # rubocop:enable Layout/LineLength, Metrics/BlockLength
